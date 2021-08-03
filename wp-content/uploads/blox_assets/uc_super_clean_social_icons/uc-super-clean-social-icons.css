@@ -1,0 +1,49 @@
+
+.uc-super-clean-social-icons *{
+	margin:0;
+	padding:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.uc-super-clean-social-icons {
+	position:relative;
+	width:100%;
+	text-align:center;
+}
+.uc-super-clean-social-icons .uc-social-icons-box{
+	display:inline-block;
+}
+.uc-super-clean-social-icons .uc-social-icons-box a{
+	font-size:18px;
+	line-height:32px;
+    display: block;
+	padding:5px 30px;
+	border-right:1px solid transparent;
+    position: relative;
+    text-decoration: none;
+    vertical-align: middle;
+	font-weight:400;
+}
+.uc-super-clean-social-icons .uc-social-icons-box:hover a{
+	color:#fff !important;
+}
+.uc-super-clean-social-icons .uc-social-icons-box:last-child a{
+	border-right:0px;
+}
+.uc-super-clean-social-icons .uc-social-icons-box span{
+	display:inline-block;
+	margin-left:7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

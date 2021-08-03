@@ -1,0 +1,239 @@
+/*
+Theme Name: Manasa
+Theme URI: https://wpkoi.com/manasa-wpkoi-wordpress-theme/
+Template: lalita
+Author: wpkoithemes
+Author URI: https://wpkoi.com
+Description: Manasa is a child theme for Lalita WPKoi theme. You can find theme demos at wpkoi.com. Manasa has a black & white, clean style and design for portfolio, business or agency content. The theme is multipurpose, so if You like the style, You can use it to represent Your art, business, an event, show Your portfolio, start a blog, start a webshop and sell Your products etc. The demos use Elementor, WooCommerce and Contact Form 7 plugins. The premium demo uses the Manasa premium plugin also. Manasa has an easy to use admin with a lot of customizer functions, so You can build Your dream without coding knowledge. The theme is responsive so looks good on almost every devices. You can setup multiple header styles, navigation styles and layouts. Build You site with Manasa Theme and share it with the world! You can also find a documentation with an install guide and a tutorial for the screenshot look on wpkoi.com/docs.
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: manasa
+Tags: two-columns, three-columns, one-column, right-sidebar, left-sidebar, footer-widgets, blog, e-commerce, flexible-header, full-width-template, custom-header, custom-background, custom-menu, custom-colors, sticky-post, threaded-comments, translation-ready, featured-images
+
+*/
+
+body {
+  background-color: #222222;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.inside-top-bar {
+  padding: 6px 20px 3px;
+}
+
+.top-bar {
+  font-weight: 700;
+}
+
+.inside-header {
+  padding: 0 20px;
+}
+
+.main-title {
+  text-transform: none;
+}
+
+.main-title,
+.widget-title {
+  font-weight: 400;
+}
+
+.main-navigation a {
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+.main-navigation .main-nav ul li a,
+.main-navigation .mobile-bar-items a,
+.menu-toggle {
+  padding-left: 9px;
+  padding-right: 9px;
+  line-height: 70px;
+}
+
+.menu-item-has-children .dropdown-menu-toggle {
+  padding-left: 9px;
+}
+
+header .main-navigation .main-nav ul li.wpkoi-nav-btn-h {
+  height: 72px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header .main-navigation .main-nav ul li a.wpkoi-nav-btn {
+  padding: 10px 20px;
+  line-height: inherit;
+  margin-bottom: 3px;
+}
+
+header .is_stuck.main-navigation .main-nav ul li.wpkoi-nav-btn-h {
+    display: inline-flex;
+}
+
+.navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:focus::after, .navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:focus::before, .navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:hover::after, .navigation-effect-stylea #site-navigation .main-nav ul li.menu-item a:hover::before, .navigation-effect-stylea #site-navigation .main-nav ul li.menu-item.current-menu-item a::after, .navigation-effect-stylea #site-navigation .main-nav ul li.menu-item.current-menu-item a::before {
+    font-weight: 600;
+}
+
+.button,
+.woocommerce a.button,
+.woocommerce button.button {
+  padding: 12px 25px;
+}
+
+.button, .button:visited, button:not(.menu-toggle), html input[type=button], input[type=reset], input[type=submit] {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.site-info {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.lalita-side-left-content {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.lalita-side-left-content .lalita-side-left-socials ul {
+  padding: 10px 4px;
+}
+
+.lalita-side-left-content .lalita-side-left-text {
+  padding: 4px 10px;
+}
+
+.page-header-blog-content-h {
+  display: block;
+}
+
+.page-header-blog-content-h .page-header-blog-content {
+  margin: 0;
+  display: inline-block;
+  width: 45%;
+}
+
+.page-header-blog-image {
+  display: inline-block;
+  width: 54%;
+}
+
+.page-header-blog-text, .page-header-blog-button {
+  display: block;
+  width: 100%;
+}
+
+.page-header-blog-content h2 {
+  font-size: 95px;
+  font-weight: 400;
+  padding: 0;
+  line-height: 1;
+  margin-bottom: 30px;
+}
+
+.page-header-blog-content p {
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.page-header-blog-content a.button {
+  border-radius: 0;
+  margin-bottom: 10px;
+}
+
+.page-header-blog {
+  padding: 5% 0 0;
+}
+
+.site-footer .footer-widgets-container .inner-padding {
+  padding: 0 0 20px 40px;
+}
+
+.manasa-img-effect .post-image img {
+  transition-duration: 0.5s;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  border-radius:0;
+}
+
+
+.manasa-img-effect .post-image img:hover {
+  transition-duration: 0.5s;
+  -webkit-transform: scale(0.9);
+  -ms-transform: scale(0.9);
+  transform: scale(0.9);
+  border-radius:30px;
+}
+
+.footer-bar .lalita-social-bar {
+  float: right;
+}
+
+.footer-bar .lalita-socials-list li {
+  display: inline-block;
+  padding-left: 8px;
+}
+
+.elementor-page .screen-reader-text {
+	top: inherit;
+}
+
+.lalita-button-radius-full .button, .lalita-button-radius-full .woocommerce a.button, .lalita-button-radius-full .woocommerce button.button {
+    border-radius: 50% !important;
+}
+
+.button, .woocommerce a.button, .woocommerce button.button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    border-style: dashed;
+}
+
+.inside-navigation .search-form input[type="search"]:focus {
+    color: #333333 !important;
+}
+
+@media (max-width: 1024px) {
+  .page-header-blog-content-h h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-header-blog-content-h h2 {
+    font-size: 40px;
+  }
+  
+  .page-header-blog-content-h p {
+    font-size: 22px;
+  }
+  
+  .page-header-blog-content-h .page-header-blog-content, .page-header-blog-image {
+    width: 100%;
+  }
+
+  body {
+    padding: 0;
+  }
+
+  .lalita-side-left-cover, .lalita-side-right-cover {
+    width: 0;
+  }
+
+  .footer-bar .widget, .footer-bar .lalita-social-bar {
+    float: none;
+    margin: 0 10px;
+  }
+}

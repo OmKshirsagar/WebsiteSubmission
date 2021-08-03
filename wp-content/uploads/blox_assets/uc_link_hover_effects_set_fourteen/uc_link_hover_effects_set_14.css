@@ -1,0 +1,92 @@
+.uc_link_hover_effects_set_14 {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+   text-align:center;
+}
+
+.uc_link_hover_effects_set_14 nav a {
+	position: relative;
+	display: inline-block;
+	margin: 0px;
+	outline: none;
+	color:#ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	text-shadow: 0 0 1px rgba(255,255,255,0.3);
+	font-size: 1.35em;
+}
+
+.uc_link_hover_effects_set_14 nav a:hover,
+.uc_link_hover_effects_set_14 nav a:focus {
+	outline: none;
+}
+
+
+/* Effect 14: border switch */
+.uc_link_hover_cl-effect-14 a {
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.uc_link_hover_cl-effect-14 a::before,
+.uc_link_hover_cl-effect-14 a::after {
+	position: absolute;
+	width: 45px;
+	height: 2px;
+	background: #fff;
+	content: '';
+	opacity: 0.2;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+	pointer-events: none;
+}
+
+.uc_link_hover_cl-effect-14 a::before {
+	top: 0;
+	left: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.uc_link_hover_cl-effect-14 a::after {
+	right: 0;
+	bottom: 0;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	transform: rotate(90deg);
+	-webkit-transform-origin: 100% 0;
+	-moz-transform-origin: 100% 0;
+	transform-origin: 100% 0;
+}
+
+.uc_link_hover_cl-effect-14 a:hover::before,
+.uc_link_hover_cl-effect-14 a:hover::after,
+.uc_link_hover_cl-effect-14 a:focus::before,
+.uc_link_hover_cl-effect-14 a:focus::after {
+	opacity: 1;
+}
+
+.uc_link_hover_cl-effect-14 a:hover::before,
+.uc_link_hover_cl-effect-14 a:focus::before {
+	left: 50%;
+	-webkit-transform: rotate(0deg) translateX(-50%);
+	-moz-transform: rotate(0deg) translateX(-50%);
+	transform: rotate(0deg) translateX(-50%);
+}
+
+.uc_link_hover_cl-effect-14 a:hover::after,
+.uc_link_hover_cl-effect-14 a:focus::after {
+	right: 50%;
+	-webkit-transform: rotate(0deg) translateX(50%);
+	-moz-transform: rotate(0deg) translateX(50%);
+	transform: rotate(0deg) translateX(50%);
+}

@@ -1,0 +1,247 @@
+
+version 1.0.64
+
+-bug fix: fixed wordpress 5.6 compatability
+
+version 1.0.63
+
+-bug fix: fixed twig version
+
+version 1.0.62
+
+-bug fix: fixed blox page not seen bug
+
+version 1.0.61
+
+-bug fix: fixed a small bug
+
+version 1.0.60
+
+-bug fix: fix some bugs
+
+version 1.0.59
+
+-change: removed fixed position from layout output
+
+version 1.0.58
+
+-bug fix: fixed save page templates
+
+version 1.0.57
+
+-bug fix: fixed wordpress 5 gutenberg related issues
+
+version 1.0.56
+
+-bug fix: returned the "update from catalog" button
+-bug fix: fixed content editing related bugs
+-bug fix: fixed save section to library
+
+version 1.0.55
+
+-feature: done content editing
+
+version 1.0.54
+
+-change: chaned more white label settings
+
+version 1.0.53
+
+-feature: done white label functionality
+
+version 1.0.52
+
+-synced with joomla version, fixed some bugs
+
+version 1.0.51
+
+-bug fix: fixed invalid styles include
+
+version 1.0.50
+
+-bug fix: fixed import addon type bug
+
+version 1.0.49
+
+-change: added function put_date_utc(date) to template engine
+
+version 1.0.48
+
+-bug fix: fixed the wordfence issue
+
+version 1.0.47
+
+-bug fix: fixed the page settings again :)
+
+version 1.0.46
+
+-bug fix: fixed double image select
+-bug fix: fixed tablet font size
+-bug fix: fixed page settings not saved bug again
+
+version 1.0.45
+
+-bug fix: fixed page settings bug
+
+version 1.0.44
+
+-bug fix: fixed google font include
+
+version 1.0.43
+
+-bug fix: fixed style including
+
+version 1.0.42
+
+-protection: made some protection in case that wordpress make upgrade error
+
+version 1.0.41
+
+-change: made gutenberg compatability
+
+version 1.0.40
+
+-change: inserted jquery dependency if the script exists
+
+version 1.0.39
+
+-change: updated license screen
+
+version 1.0.38
+
+-bug fix: fixed editor js error with mobile-size attribute
+
+version 1.0.37
+
+-feature: added custom post types
+
+version 1.0.36
+
+-bug fix: fixed bug with page tempalte save
+-bug fix: fixed bug with work on localhost with empty catalog
+
+version 1.0.35
+
+-bug fix: fixed startup error messaging
+
+version 1.0.34
+
+-bug fix: fixed some php related bug
+
+version 1.0.33
+
+-change: made it compatable to the addon-library plugin
+
+version 1.0.32
+
+-bug fix: fixed some small bugs with the deviders
+
+version 1.0.30
+
+-bug fix: fixed bug with export/import deviders
+
+version 1.0.30
+
+-change: improved shape deviders
+
+version 1.0.29
+
+-bug fix: fixed bug with edit permisisons
+
+version 1.0.28
+
+-bug fix: fixed bug with constants at addons view
+
+version 1.0.27
+
+-change: changed svg icon picker to addon picker object
+
+version 1.0.26
+
+-bug fix: fixed bug with section layout import
+
+version 1.0.25
+
+-bug fix: fixed dissapearing google fonts bug on duplicate addon
+
+version 1.0.24
+
+-bug fix: fixed some php bug with activation
+
+version 1.0.23
+
+-bug fix: fixed add addon issues
+
+version 1.0.22
+
+-bug fix: fixed bug with styles dissapeared on duplicate addon
+-bug fix: fixed bug with google links in general settings
+-bug fix: fixed bug with the activation licenses
+-bug fix: fixed bug with addon_class attribute on the grid builder
+-bug fix: fixed bug with auto screenshot on autosave
+
+version 1.0.21
+
+-bug fix: fixed joomla filter
+
+version 1.0.20
+
+-feature: added my library screen
+-feature: added my layouts screen
+-feature: added sections
+-feature: added shape deviders
+-feature: added shapes
+
+
+version 1.0.12
+
+-bug fix: fixed bug (php error) with new or imported page title
+
+version 1.0.11
+
+-bug fix: fixed url post link to ssl if available
+-bug fix: fixed bug with background images of imported bg image
+
+version 1.0.10
+
+-bug fix: fixed exporting layouts with background image
+
+version 1.0.9
+
+-change: consolidated panel in side panel, removed mobile and tablet panels
+-feature: added hide in mobile in columns
+
+version 1.0.8
+
+-bug fix: fixed google maps
+-feature: added post category multi select in post list selector
+-feature: made advanced custom fields support in addon creation view
+
+version 1.0.7
+
+-change: updated pro version links in license view
+
+version 1.0.6
+
+-change: removed pending activation message
+
+version 1.0.5
+
+-change: updated pending activation message in license view
+
+version 1.0.4
+
+-bug fix: fixed some small visual bugs
+-feature: added page mobile and tablet css
+
+version 1.0.3
+
+-bug fix: fixed init bug
+
+version 1.0.1
+
+-bug fix: fixed font awesome default version
+
+version 1.0
+
+fist plugin release!
